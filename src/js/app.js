@@ -9,8 +9,8 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   const title =  document.querySelector("title")
-  title. innerHTML = "No new messages";
-  
+  title.innerHTML = "No new messages";
+
   setTimeout(() => {
     title.innerHTML = "One new message"
   }, 3000)
