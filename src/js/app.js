@@ -7,4 +7,10 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  const title =  document.querySelector("title")
+
+  setTimeout(() => {
+    title.innerHTML = "One new message"
+  }, 3000)
 });
